@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = 'https://memories-app-server-self.vercel.app/posts';
+const url = 'https://memories-app-server-phi.vercel.app/posts';
 
 export const fetchPosts = () => axios.get(url);
 export const createPost = (newPost) => axios.post(url, newPost);
